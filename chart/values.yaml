@@ -1,0 +1,9 @@
+image: docker.pipem.io/provider-aws
+version: VERSION
+
+replicas: 1
+
+log:
+  level: "info"
+
+provider: aws
